@@ -90,9 +90,13 @@ header {
   }
   header {
     justify-content: space-between;
+    position: static;
   }
   .menu {
     display: inline-flex;
+  }
+  .title {
+    display: none;
   }
   .tagline {
     padding: 1rem 0;
