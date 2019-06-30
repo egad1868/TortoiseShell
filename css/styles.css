@@ -2,12 +2,12 @@
 /*Universal Styles*/
 html {
   font-size: 18px;
-  line-height: 1.4;
 }
 body {
     font-family: Helvetica, sans-serif;
     font-size: 1rem;
     color: black;
+    line-height: 1.4;
 }
 a {
   color: white;
@@ -38,7 +38,6 @@ header {
   justify-content: space-between;
   padding: 1rem 2rem;
   margin-top: 1rem;
-  flex-wrap: nowrap;
 }
 .logo img {
     height: 1.5rem;
@@ -113,21 +112,20 @@ nav ul li {
 /*About Styles*/
 #about {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   padding-bottom: 5rem;
 }
 .about {
   width: 35%;
   margin-right: 5%;
-  padding-top: 1rem;
-
 }
 .about h3 {
   background-color: cadetblue;
   width: 10rem;
   font-weight: bold;
   padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -135,5 +133,17 @@ nav ul li {
 @media only screen and (max-width: 470px) {
 }
 /*Footer Styles*/
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4rem;
+  margin: 0;
+}
+.title {
+  padding-left: 1rem;
+  color: black;
+}
 @media only screen and (max-width: 470px) {
 }
