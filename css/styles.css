@@ -85,6 +85,23 @@ nav ul li {
 @media only screen and (max-width: 470px) {
 }
 /*Services Styles*/
+.services {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service img {
+  width: 3.5rem;
+  height: auto;
+}
+.service {
+  width: 5rem;
+  height: 8rem;
+  text-align: center;
+  flex-direction: column;
+
+}
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
