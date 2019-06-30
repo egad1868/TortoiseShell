@@ -115,9 +115,13 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-bottom: 5rem;
+}
+.about {
   width: 35%;
   margin-right: 5%;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+
 }
 .about h3 {
   background-color: cadetblue;
@@ -125,6 +129,7 @@ nav ul li {
   font-weight: bold;
   padding: 0.5rem 1.25rem;
 }
+
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
