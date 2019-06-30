@@ -92,9 +92,7 @@ header {
     justify-content: space-between;
     position: static;
   }
-  .menu {
-    display: inline-flex;
-  }
+
   .title {
     display: none;
   }
@@ -119,6 +117,14 @@ nav ul li .menu {
   nav {
     position:absolute;
     top: 0;
+  }
+}
+@media only screen and (max-width: 764px) {
+  nav ul li {
+    display: none;
+  }
+ nav ul li .menu {
+    display: inline-flex;
   }
 }
 /*Main Content Styles*/
