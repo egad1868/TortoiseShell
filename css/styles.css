@@ -24,7 +24,7 @@ header, main, footer {
 }
 /*Header Styles*/
 .headerBG {
-  background-image: url(./images/glasses-bg.png);
+  background-image: url(../images/glasses-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -53,16 +53,21 @@ header {
   font-size: 2rem;
   font-weight: bold;
   position: relative;
-  right: 2rem;
+  left: 4rem;
+  top: 10rem;
+
 }
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
 }
 /*Nav Styles*/
-nav {
-  display: flex;
+nav ul {
+
+}
+nav ul li {
   padding-left: 2rem;
+  display: inline-block;
 }
 @media only screen and (max-width: 470px) {
 }
