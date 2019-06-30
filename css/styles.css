@@ -22,6 +22,12 @@ header, main, footer {
   margin: 0 auto;
 
 }
+@media only screen and (max-width: 1024px) {
+  header, main, footer {
+    width: 100%;
+  }
+}
+
 /*Header Styles*/
 .headerBG {
   background-image: url(../images/glasses-bg.png);
@@ -64,20 +70,32 @@ header {
 
 }
 @media only screen and (max-width: 1024px) {
+  .headerBG {
+    padding-top: 0;
+    height: 22rem;
+  }
+  .tagline {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    right: -2rem;
+    top: 10rem;
+    text-transform: uppercase;  
+  }
 }
 @media only screen and (max-width: 470px) {
 }
 /*Nav Styles*/
-nav {
-
-}
 nav ul {
   display: inline-flex;
 }
 nav ul li {
   padding-left: 2rem;
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1024px) {
+  nav {
+    position:absolute;
+    top: 0;
+  }
 }
 /*Main Content Styles*/
 @media only screen and (max-width: 1024px) {
@@ -139,7 +157,7 @@ footer {
   align-items: center;
   justify-content: flex-start;
   padding: 4rem;
-  margin: 0;
+
 }
 .copyright {
   padding-left: 1rem;
