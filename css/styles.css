@@ -13,7 +13,7 @@ a {
   color: white;
   text-decoration: none;
 }
-p {
+p, h3 {
   margin: 0;
   padding: 0;
 }
@@ -102,12 +102,29 @@ nav ul li {
   text-align: center;
   flex-direction: column;
   margin: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
 }
 /*About Styles*/
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 35%;
+  margin-right: 5%;
+  padding-bottom: 5rem;
+}
+.about h3 {
+  background-color: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
