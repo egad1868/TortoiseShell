@@ -40,10 +40,12 @@ header {
   margin-top: 1rem;
   flex-wrap: nowrap;
 }
+.logo img {
+    height: 1.5rem;
+    width: auto;
+}
 .logo {
-  height: 1.5rem;
-  flex-grow: 1;
-  flex-wrap: nowrap;
+  display: flex;
 }
 .title {
   padding-left: 1rem;
@@ -55,9 +57,9 @@ header {
   line-height: 1.2rem;
   font-size: 2rem;
   font-weight: bold;
-  position: relative;
-  left: 4rem;
-  top: 10rem;
+  position: absolute;
+  right: 4rem;
+  top: 15rem;
   text-transform: uppercase;
 
 }
@@ -67,14 +69,13 @@ header {
 }
 /*Nav Styles*/
 nav {
-  display: inline-block;
+
 }
 nav ul {
-  display: inline-block;
+  display: inline-flex;
 }
 nav ul li {
   padding-left: 2rem;
-  display: inline-block;
 }
 @media only screen and (max-width: 470px) {
 }
