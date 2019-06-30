@@ -1,5 +1,27 @@
 /*Styles for Tortoise Shell Optics*/
 /*Universal Styles*/
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+header, main, footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
 /*Header Styles*/
 @media only screen and (max-width: 1024px) {
 }
