@@ -20,14 +20,39 @@ p {
 header, main, footer {
   width: 960px;
   margin: 0 auto;
-  padding: 0;
+
 }
 /*Header Styles*/
+.headerBG {
+  background-image: url(./images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 1rem;
+}
+header {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+.logo {
+  height: 1.5rem;
+}
+.title {
+  padding-left: 1rem;
+}
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 470px) {
 }
 /*Nav Styles*/
+nav {
+  display: flex;
+  padding-left: 2rem;
+}
 @media only screen and (max-width: 470px) {
 }
 /*Main Content Styles*/
