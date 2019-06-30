@@ -46,6 +46,7 @@ header {
 }
 .logo {
   display: flex;
+  align-items: center;
 }
 .title {
   padding-left: 1rem;
@@ -100,7 +101,7 @@ nav ul li {
   height: 8rem;
   text-align: center;
   flex-direction: column;
-
+  margin: 0 3rem;
 }
 @media only screen and (max-width: 1024px) {
 }
