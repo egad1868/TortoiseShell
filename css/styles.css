@@ -74,15 +74,31 @@ header {
     padding-top: 0;
     height: 22rem;
   }
+  header {
+    justify-content: space-around;
+  }
   .tagline {
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
-    right: -2rem;
     top: 10rem;
-    text-transform: uppercase;  
   }
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 764px) {
+  .headerBG {
+    height: 17rem;
+    background-position: 20%;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .menu {
+    display: inline-flex;
+  }
+  .tagline {
+    padding: 1rem 0;
+    width: 100%;
+    top: 9rem;
+  }
 }
 /*Nav Styles*/
 nav ul {
@@ -90,6 +106,10 @@ nav ul {
 }
 nav ul li {
   padding-left: 2rem;
+}
+
+nav ul li .menu {
+  display: none;
 }
 @media only screen and (max-width: 1024px) {
   nav {
